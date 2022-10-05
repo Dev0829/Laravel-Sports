@@ -1,8 +1,8 @@
-{{-- <x-base-layout> --}}
+<x-base-layout>
     <div class="row gy-5 gx-xl-8">
         <!--begin::Col-->
         <div class="col-xl-12">
-            <p>Welcome!</p>
+            {{ theme()->getView('partials/widgets/mixed/_widget-2', array('class' => 'card-xxl-stretch', 'chartColor' => 'danger', 'chartHeight' => '200px')) }}
             {{-- {{ theme()->getView('pages/users/index', array('info' => users())) }}   --}}
         </div>
         <!--end::Col-->
@@ -86,4 +86,4 @@
     </div>
     <!--end::Row--> --}}
 
-{{-- </x-base-layout> --}}
+</x-base-layout>

@@ -3,7 +3,7 @@ return array(
     '' => array(
         'title'       => 'Dashboard',
         'description' => '',
-        'view'        => 'users',
+        'view'        => 'index',
         'layout'      => array(
             'page-title' => array(
                 'description' => true,
@@ -146,94 +146,6 @@ return array(
 
             'edit' => array(
                 'title' => 'Edit User',
-            ),
-        ),
-    ),
-
-    'tasks'         => array(
-        'title' => 'Task List',
-        'assets' => array(
-            'custom' => array(
-                'css' => array(
-                    'plugins/custom/datatables/datatables.bundle.css',
-                ),
-                'js'  => array(
-                    'plugins/custom/datatables/datatables.bundle.js',
-                    'js/custom/task-details.js',
-                ),
-            ),
-        ),
-        '*' => array(
-            'title' => 'Show Task',
-
-            'edit' => array(
-                'title' => 'Edit Task',
-            ),
-        ),
-    ),
-
-    'goals'         => array(
-        'title' => 'Goal List',
-        'assets' => array(
-            'custom' => array(
-                'css' => array(
-                    'plugins/custom/datatables/datatables.bundle.css',
-                ),
-                'js'  => array(
-                    'plugins/custom/datatables/datatables.bundle.js',
-                    'js/custom/goal-details.js',
-                ),
-            ),
-        ),
-        '*' => array(
-            'title' => 'Show Goal',
-
-            'edit' => array(
-                'title' => 'Edit Goal',
-            ),
-        ),
-    ),
-
-    'milestones'         => array(
-        'title' => 'Milestone List',
-        'assets' => array(
-            'custom' => array(
-                'css' => array(
-                    'plugins/custom/datatables/datatables.bundle.css',
-                ),
-                'js'  => array(
-                    'plugins/custom/datatables/datatables.bundle.js',
-                    'js/custom/milestone-details.js',
-                ),
-            ),
-        ),
-        '*' => array(
-            'title' => 'Show Milestone',
-
-            'edit' => array(
-                'title' => 'Edit Milestone',
-            ),
-        ),
-    ),
-
-    'objectives'         => array(
-        'title' => 'Objective List',
-        'assets' => array(
-            'custom' => array(
-                'css' => array(
-                    'plugins/custom/datatables/datatables.bundle.css',
-                ),
-                'js'  => array(
-                    'plugins/custom/datatables/datatables.bundle.js',
-                    'js/custom/objective-details.js',
-                ),
-            ),
-        ),
-        '*' => array(
-            'title' => 'Show Objective',
-
-            'edit' => array(
-                'title' => 'Edit Objective',
             ),
         ),
     ),

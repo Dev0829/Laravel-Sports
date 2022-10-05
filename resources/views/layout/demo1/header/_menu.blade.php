@@ -21,9 +21,7 @@
          id="#kt_header_menu"
          data-kt-menu="true"
     >
-        {{-- {{ $menu->build() }} --}}
-
-        <div class="menu-item me-lg-1" ><a class="menu-link active py-3" href="http://127.0.0.1:8000/users" ><span class="menu-title" >Dashboard</span></a></div>
+        {!! $menu->build() !!}
     </div>
     <!--end::Menu-->
 </div>

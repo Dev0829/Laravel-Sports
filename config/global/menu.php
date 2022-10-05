@@ -196,7 +196,7 @@ return array(
         //// Dashboard
         array(
             'title' => 'Dashboard',
-            'path'  => 'users/index',
+            'path'  => '',
             'icon'  => theme()->getSvgIcon("demo1/media/icons/duotune/art/art002.svg", "svg-icon-2"),
         ),
 
@@ -204,6 +204,13 @@ return array(
         array(
             'classes' => array('content' => 'pt-8 pb-2'),
             'content' => '<span class="menu-section text-muted text-uppercase fs-8 ls-1">Modules</span>',
+        ),
+        
+        // Users
+        array(
+            'title' => 'Users',
+            'path'  => 'users/index',
+            'icon'  => theme()->getSvgIcon("demo1/media/icons/duotune/art/art003.svg", "svg-icon-3"),
         ),
 
         // Account
@@ -282,7 +289,7 @@ return array(
         // Dashboard
         array(
             'title'   => 'Dashboard',
-            'path'    => 'users/index',
+            'path'    => '',
             'classes' => array('item' => 'test123 me-lg-1'),
         ),
 
@@ -313,6 +320,12 @@ return array(
         //         ),
         //     ),
         // ),
+
+        // Users
+        array(
+            'title' => 'Users',
+            'path'  => 'users/index',
+        ),
 
         // Account
         array(

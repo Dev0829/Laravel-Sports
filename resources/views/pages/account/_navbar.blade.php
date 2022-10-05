@@ -91,7 +91,7 @@
                                     {!! theme()->getSvgIcon("icons/duotune/arrows/arr066.svg", "svg-icon-3 svg-icon-success me-2") !!}
                                     <div class="fs-2 fw-bolder"
                                         data-kt-countup="true"
-                                        data-kt-countup-value={{ count(\App\Models\Task::where('user_id', auth()->user()['id'])->get()) }}
+                                        data-kt-countup-value="50"
                                         data-kt-countup-prefix=""
                                     >0</div>
                                 </div>
@@ -110,7 +110,7 @@
                                     {!! theme()->getSvgIcon("icons/duotune/arrows/arr065.svg", "svg-icon-3 svg-icon-danger me-2") !!}
                                     <div class="fs-2 fw-bolder"
                                         data-kt-countup="true"
-                                        data-kt-countup-value={{ count(\App\Models\Objective::where('assign_to_parent', auth()->user()['id'])->get()) }}
+                                        data-kt-countup-value="100"
                                     >0</div>
                                 </div>
                                 <!--end::Number-->
@@ -128,7 +128,7 @@
                                     {!! theme()->getSvgIcon("icons/duotune/arrows/arr066.svg", "svg-icon-3 svg-icon-success me-2") !!}
                                     <div class="fs-2 fw-bolder"
                                         data-kt-countup="true"
-                                        data-kt-countup-value={{ count(\App\Models\Milestone::get()) }}
+                                        data-kt-countup-value="75"
                                     >0</div>
                                 </div>
                                 <!--end::Number-->

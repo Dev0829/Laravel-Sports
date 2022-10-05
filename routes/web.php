@@ -7,10 +7,6 @@ use App\Http\Controllers\Logs\AuditLogsController;
 use App\Http\Controllers\Logs\SystemLogsController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\UsersController;
-use App\Http\Controllers\TasksController;
-use App\Http\Controllers\GoalsController;
-use App\Http\Controllers\MilestonesController;
-use App\Http\Controllers\ObjectivesController;
 use Illuminate\Support\Facades\Route;
 
 /*
